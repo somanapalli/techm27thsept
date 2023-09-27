@@ -197,5 +197,237 @@ how can i execute?
 }
 
 
+java is object oriented programming language.
 
+  ->oops princples
+  
+
+in java, 
+
+ 1.class
+ 2.object
+ 
+ class:
+ 
+  class is the collection of variables and methods.
+  
+variable:
+
+ purpose: store the data.
+ 
+   or variable name of the memory location .
+   
+ <datatype> <variablename> = <value>;
+ 
+ 100
+ 
+    int x =100;//invalid
+	String y = "ram";
+	boolean z = true;
+	double d = 6.6;
+	float f = 7.8f;
+	char c = 'a';
+	
+	
+method:
+
+  method is the place where we are writing the logic.
+
+  to perform some operation.
+
+  
+syntax:
+
+   <returntype> <methodname>()
+   {
+      //logic
+   }
+
+
+   void display()
+   {
+     sysout();
+   }
+
+void =>it is not returning any value.
+
+    String getFullName()
+	{
+	  return 10;//compile time error
+	}
+
+return type and return value must be same type. or compatible with 
+each other.
+
+
+     void getSum(int x, int y)
+	 {
+	   System.out.pritnln("sum is: " +(x+y));
+	 }
+   
+   getSum(6,7);
+   
+   
+     int getSum(int x, int y)
+     {
+          return x+y;
+     } 
+   
+   int x = getSum(7,6);
+   System.out.println(x); //13
+   
+ object:
+
+ object is an instance of the class.
+
+ instance: allocating sufficient amount of memory space for the variables
+ which we are declaring inside the class. 
+ 
+ syntax:
+ 
+  <classname> <objectname>= new <classname>();
+  
+ ex:
+   Demo obj = new Demo();
+   
+  
+  class Demo
+{
+	//variable  intialization 
+	
+	 int x = 100;
+	 String y = "Rama";
+	 boolean b = false;
+	 char c = 'a';
+	 float f = 6.7f;
+	 static String collegeName="jntu";
+	 
+	//method
+	
+	public void displayDetails()
+	{
+		
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(f);
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		
+		//object creation 
+		
+		Demo obj = new Demo();
+		//call displayDetails() from here
+		
+		obj.displayDetails();
+		
+    }
+	
+	
+}
+
+difference between static property and non-static(instance) property:
+
+
+if a property is common it is recommended to declare that property 
+as static. 
+
+    
+  from static area, if we want to access non-static properties using 
+  object only it is possible 
+
+  from static area, if we want to access static properties using 
+  classname or directly it is possible.
+  
+  for static properties , object creation is not required
+  because memory will be created for static properties at the time 
+  of loading the class into main memory by classloader subsystem which 
+  is the part of jvm.
+  
+  memory spaces will be created every time whenever we create the object.
+  memory space will be creaetd only once for static properties.
+  
+  
+ for a single classs, how many objects we can create?
+
+  we can create multiple objects based on our requirement.
+  
+  
+class Demo
+{
+	//variable  intialization 
+	
+	 int x = 100;
+	 String y = "Rama";
+	 boolean b = false;
+	 char c = 'a';
+	 float f = 6.7f;
+	 static String collegeName="jntu";
+	 
+	 
+	
+	//method
+	
+	public void displayDetails()
+	{
+		
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(f);
+	}
+	
+	
+	public static void main(String[] args)
+	{
+		//static area
+		//object creation 
+		
+		Demo obj = new Demo();
+		//call displayDetails() from here
+		
+		obj.displayDetails();
+		
+		System.out.println(obj.x);
+		System.out.println(Demo.collegeName);
+		
+		
+		Demo obj1 = new Demo();
+		Demo obj2 = new Demo();
+		
+    }
+	
+	
+}
+
+
+constructor:
+````````````
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
    
