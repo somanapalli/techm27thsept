@@ -1,0 +1,201 @@
+core java:
+``````````
+what is java?
+
+  java is object oriented programming language.
+  
+ why we need to learn this pl?
+  python
+  java
+  .net
+  c,cpp... 
+   to develop the software application 
+   
+ java:
+ 
+   1995 
+   28 years ago
+   james gosling -author 
+   sunmicrosystem 
+   
+   popularity -> java has unique principles.
+   
+   
+  oopl 
+
+  using java, what kind of applications we can develop?
+
+  
+   ->desktop applications & webbased applications
+   
+   
+   core java -> jse(java standard edition)
+    -desktop applications.
+	
+	adv java ->jee(java enterprise edition)
+	 -webbased applications.
+	 
+   1995 
+   
+    jamesgosling 
+	
+	 into three editions
+	 
+	 1.jse (core java) 2.jee(advanced java)
+	 
+	 
+	jse:
+
+oops princples
+control statements
+instance vs static 
+class vs object
+string manipulation 
+collection framework
+files concept
+multithreading intro
+exception handling 
+lambda expression and stream api 
+etc.. 
+	
+		
+		
+	 
+	 
+
+java is oopl
+
+ ->what is oopl?
+ 
+  xyz  -> oopl 
+  
+  it has to follow some principles
+   oops princples.
+   
+   we have 4 oops principles.
+   
+   1.inheritance
+   2.encapsulation 
+   3.polymorphism 
+   4.abstraction 
+   
+
+as a programmer what is our role?
+ 
+  to write the program
+  
+  
+  we have to follow some rules.
+  
+  syntaxes-language vendors 
+  in case of java-> sunmicrosystem
+  
+  oracle corporation 
+  (www.oracle.com)
+  
+  
+ scjp -> sun certfied java programmer
+ ocjp -> oracle certfied java programmer
+
+ 
+syntaxes we have on each and every concept 
+
+  class <classname>
+  {
+  }
+  
+     <datatype> <varaiblename>;
+	 
+	 <returntype> <methodname>()
+	 {
+	 }
+	 
+
+basic structure of java program?
+
+   every java program should statt with by defining the class 
+   only.
+   
+   how can we define the class?
+    
+	  syntax:
+	  
+    class <classname>
+	{
+	}
+
+ex:
+  class Student{
+  }
+  
+
+we need to save it.
+<filename>.java
+
+   
+  compile the java program 
+  execute the java program 
+
+  we require java software
+  
+  c program -> turbo c cpp -> turbo cpp 
+  java program -> java software -> jdk (java development kit)
+  
+  
+  java is opensource.
+  
+  www.oracle.com
+  
+  
+  
+  https://www.oracle.com/in/java/technologies/downloads/#jdk21-windows
+  
+  
+  why should i compile the program ?
+  
+    java compiler is the predefined java program available in jdk. 
+	
+	 syntaxes are correct or not?
+	 
+	 
+  if programmer is not following the syntaxes -> 
+  compiler will give you errors.
+  
+  .java -> compiler -> generate -> .class file 
+  
+     java compiler will take .java file -> .class file 
+	 jvm will take .class file -> machine level code 
+	 
+	 
+  how can we compile the java program?
+  
+  open the command prompt.
+  
+    javac <filename>.java
+	
+how can i execute?
+
+    java <classname>
+	
+	java Demo
+	
+  we have to define the main()
+  because java program execution starts from main() method only.
+  
+  
+  
+  class Demo
+{
+	public static void main(String[] args)
+	{
+		//logic
+		
+		System.out.println("welcome to java sessions from techm");
+    }
+	
+	
+}
+
+
+
+   
